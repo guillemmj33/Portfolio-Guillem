@@ -27,5 +27,14 @@ El código ha sido creado en HTML, SASS (SCSS) y REACT. No hay JavaScript (aún)
 
 <img width="1022" alt="Screenshot 2022-07-12 at 12 53 57 PM" src="https://user-images.githubusercontent.com/71839972/178474484-41cd52f4-f98c-49d5-bfc8-e98d80b68279.png">
 
-Como se puede ver, he creado una carpeta 'components' para poner la Navbar, y otra 'container' para poner las demás secciones de la página. Todas han sido creadas con extensión .jsx y .scss para el estilo. 
+Como se puede ver, he creado una carpeta 'components' para poner la Navbar, y otra 'container' para poner las demás secciones de la página. Todas han sido creadas con extensión .jsx y .scss para el estilo. He creado un archivo index.js para cada uno de ellos, el cual exporta de forma global a la App.js los diferentes archivos. 
+
+La Navbar es la única sección creada con template Bootstrap, el cual ha sido modificado en su totalidad. El resto de código es Vanilla Javascript, incluido el Footer. 
+
+Quiero seguir trabajando en este proyecto para hacerlo responsive y añadir todas las features que me quedan por añadir, como por ejemplo que el formulario de mensajes funcione, que los proyectos se vean de forma profesional y que pueda haber un pop-up cool de ellos al apretar el 'More+'.
+
+Espero que os haya gustado, seguimos rompiendo el código!
+
+Guillem
+
 
