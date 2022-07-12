@@ -1,0 +1,123 @@
+.projects--background-color {
+  background-color: var(--secondary-color);
+}
+
+.projects--box {
+  // background-color: green;
+  height: 130vh;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: nowrap;
+  padding-top: 40px;
+}
+
+.projects--box-1_1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.projects--box img {
+  width: 100%;
+  height: 100%;
+  filter: blur(4px);
+}
+
+.projects--box h3 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 73px;
+  padding: 0 0 20px 20px;
+}
+
+.projects--box-1 {
+  width: 50%;
+}
+
+.projects--box-2 {
+  width: 50%;
+}
+
+.projects--box-1 h2 {
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 43px;
+  line-height: 73px;
+}
+
+.projects--box-1 p {
+  font-family: var(--font-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.projects--box-1_1 {
+  width: 540px;
+  height: 330px;
+  margin-top: 30px;
+  background-color: var(--white-color);
+  border: 2px solid var(--black-color);
+}
+
+.projects--box-1_2 {
+  width: 540px;
+  height: 330px;
+  margin-top: 30px;
+  background-color: var(--white-color);
+  border: 2px solid var(--black-color);
+}
+
+.projects--box-2_1 {
+  width: 540px;
+  height: 330px;
+  margin-top: 30px;
+  margin-left: 15px;
+  background-color: var(--white-color);
+  border: 2px solid var(--black-color);
+}
+
+.projects--box-2_2 {
+  width: 540px;
+  height: 330px;
+  margin-left: 15px;
+  margin-top: 30px;
+  background-color: var(--white-color);
+  border: 2px solid var(--black-color);
+}
+
+.projects--box-2_3 {
+  width: 540px;
+  height: 141px;
+  margin-left: 15px;
+  margin-top: 30px;
+  border: 2px solid var(--black-color);
+}
+
+.projects--box-2_3 button {
+  width: 536px;
+  height: 137px;
+  border: none;
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 73px;
+  padding: 0 0 20px 20px;
+  color: var(--blue2-color);
+  position: relative;
+  text-align: center;
+  padding-top: 20px;
+  background-color: var(--primary-color);
+
+  &:hover {
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    transition: all 0.1s ease-in-out;
+  }
+}

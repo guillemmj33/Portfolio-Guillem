@@ -1,0 +1,40 @@
+.footer--box {
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+
+  font-family: var(--font-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--black-color) !important;
+}
+
+.footer--box img {
+  width: 100%;
+  height: 35px;
+}
+
+.footer--box-links ul li {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--black-color);
+  padding-right: 50px;
+  margin-top: -5px;
+}
+
+.footer--box-links a {
+  text-decoration: none;
+  color: var(--black-color);
+
+  &:hover {
+    color: var(--blue-color) !important;
+    transition: all 0.1s ease;
+  }
+}
+
+.footer--box-date p {
+  margin-top: 4px;
+}

@@ -1,0 +1,129 @@
+.contact--background-color {
+  background-color: var(--button-color);
+}
+
+.contact--background-color h1 {
+  color: var(--blue2-color);
+  font-family: var(--font-base);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 93px;
+  line-height: 73px;
+  padding: 50px 0 0 0;
+}
+
+.contact--box {
+  // background-color: white;
+  height: 84vh;
+  display: flex;
+  justify-content: flex-start;
+
+  input {
+    border: none;
+    border-bottom: 2px solid var(--black-color);
+    padding-top: 10px;
+    width: 555px;
+    background: transparent;
+    font-family: var(--font-text);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 45px;
+  }
+
+  input:focus {
+    border: none;
+    background: transparent;
+    outline: 0;
+    border-bottom: 2px solid var(--black-color);
+  }
+}
+
+.contact--box-1 {
+  // background-color: lightblue;
+  width: 50%;
+  margin-top: 60px;
+}
+
+.contact--box-2 {
+  width: 50%;
+  padding: 50px 0 0 145px;
+}
+
+.contact--box-1_1, .contact--box-1_2 {
+  margin-bottom: 50px;  
+}
+
+.contact--box-1_1 input::placeholder {
+  text-decoration: none;
+  color: var(--black-color);
+  font-family: var(--font-text);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 45px;
+}
+
+.contact--box-1_2 input::placeholder {
+  text-decoration: none;
+  color: var(--black-color);
+  font-family: var(--font-text);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 45px;
+}
+
+.contact--box-1_3 p {
+  text-decoration: none;
+  color: var(--black-color);
+  font-family: var(--font-text);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 45px;
+}
+
+textarea {
+  outline: 0;
+  padding: 0 0 0 10px;
+  height: 200px;
+  width: 555px;
+  background-color: var(--primary-color);
+  border: 2px solid var(--black-color);
+  font-family: var(--font-text);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 45px;
+}
+
+textarea::-webkit-input-placeholder {
+  color: var(--blue-color);
+  text-decoration: none;
+  font-family: var(--font-text);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 45px;
+}
+
+.contact--box-1 button {
+  background-color: var(--primary-color);
+  border: 1px solid var(--black-color);
+  margin-top: 20px;
+  padding: 0 30px 0 30px;
+
+  font-family: var(--font-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 45px;
+  box-shadow: 2px 2px var(--black-color);
+
+  &:hover {
+    background-color: var(--secondary-color);
+    transition: all 0.1s ease-in-out;
+  }
+}
+
